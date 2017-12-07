@@ -116,8 +116,5 @@ def main():
     print("Welcome to K-Nearest Neighbor created by Tafaquh")
     loadData()
 
-    for i in range(0, len(list_data)):
-        print(list_data[i].printValue())
-
 if __name__ == '__main__':
     main()
